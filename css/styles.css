@@ -114,21 +114,21 @@ button [type='button'] {
   top: 430px;
   cursor: pointer;
   box-shadow: #000000 0px 4px 4px 0px;
-  width: Hug (261px);
 }
 
 .address-footer {
   color: var(--primary-background-color);
 }
 
-.encabezado-list {
+.encabezado-list-item:hover {
   border: none;
   width: 128px;
-  /* height: 38px; */
+  height: 38px;
   top: 186px;
   left: 576px;
   border-radius: 4px;
   cursor: pointer;
+  color: #2196f3;
 }
 
 .main_footer {
@@ -139,4 +139,8 @@ button [type='button'] {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+}
+
+.h1 {
+  display:none
 }
